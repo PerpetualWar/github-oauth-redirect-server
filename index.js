@@ -43,5 +43,5 @@ app.get('/oauth', async function (req, res) {
 
 //server init
 app.listen(config.port, function () {
-  console.log('github oauth redirect server is listening on port 9999!');
+  console.log(`github oauth redirect server is listening on port ${config.port}!`);
 });
