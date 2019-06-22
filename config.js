@@ -4,5 +4,5 @@ module.exports = {
   "oauth_host": "https://github.com",
   "oauth_method": "POST",
   "oauth_path": "/login/oauth/access_token",
-  "port": 9999
+  "port": process.env.PORT || 9999
 }
